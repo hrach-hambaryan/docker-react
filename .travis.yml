@@ -11,6 +11,7 @@ script:
 
 
 deploy:
+   edge: true
    provider: elasticbeanstalk
    region:  "eu-central-1"
    app: "docker-react"
